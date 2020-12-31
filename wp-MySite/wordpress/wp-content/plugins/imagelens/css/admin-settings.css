@@ -1,0 +1,85 @@
+.postbox-container {width: 100%;}
+
+.wrap h2 {margin-bottom: 1em;}
+
+#faq h2 {
+	font-size: 1.6em; 
+	font-weight: 300;
+	background: white;
+	margin: .25em 0;
+	padding: .35em;
+	width: 100%;
+	}
+
+#faq { margin: 0; }
+#faq p {
+    padding: 10px;
+    font-size: 1.15em;
+	line-height: 1.8em;
+	color: #666;
+	}
+
+#faq h2 a {text-decoration: none; display: block;}
+
+body.settings_page_foothumbnail_gallery small {
+	margin: .6em 0;
+	font-style: italic;
+	color: #888;
+	display: block;
+}
+
+#faq h2 .dashicons {
+	font-size: 1.4em;
+	margin: 0 .4em 0 0;}
+
+#faq .content .dashicons {
+	display: inline;
+	float: left;
+	margin: 0 .4em 0 0;
+	font-size: 3em;
+	color: #0074a2;
+	position: relative;
+	top: 4px;
+}
+#recommended_tab .form-table th {display: none;}
+
+#recommended_tab .recommended {
+overflow: visible;
+display: block;
+background: #F7F7F7;
+border: 1px solid #ddd;
+-moz-box-shadow:    4px 4px 12px rgba(0,0,0,.25);
+-webkit-box-shadow: 4px 4px 12px rgba(0,0,0,.25);
+box-shadow: 4px 4px 12px rgba(0,0,0,.25);
+margin: 1em 0;
+padding: 1em;
+}
+
+#recommended_tab .recommended:before,
+#recommended_tab .recommended:after {
+	content: " ";
+    display: table;
+}
+
+#recommended_tab .recommended:after {
+    clear: both;
+}
+#recommended_tab .recommended img {
+display: inline-block;
+float: left;
+max-width: 25%;
+margin: 0 2em 0 0;
+}
+#recommended_tab .getit .dashicons {
+position: relative;
+top: 2px;
+margin: 1px 6px 0 -4px;
+}
+#recommended_tab .getit {
+margin: 1em 0;
+font-size: 1.25em;
+font-weight: 300;
+padding: .35em .85em;
+height: inherit;
+}
+}
